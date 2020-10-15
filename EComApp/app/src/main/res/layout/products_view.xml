@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <TextView android:id="@+id/productsTitleTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/products"
+        android:textColor="@color/black"
+        android:layout_marginStart="16dp"
+        android:layout_alignTop="@+id/viewAllBtn"
+        android:layout_alignBottom="@+id/viewAllBtn"
+        android:gravity="center"/>
+    <androidx.appcompat.widget.AppCompatButton android:id="@+id/viewAllBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="@string/view_all"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="20dp"
+        android:backgroundTint="@color/blue_btn_bg"
+        android:textAllCaps="false"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/productsRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/viewAllBtn"
+        android:layout_margin="10dp"/>
+
+</merge>
