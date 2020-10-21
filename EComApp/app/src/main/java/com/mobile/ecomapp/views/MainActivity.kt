@@ -11,7 +11,6 @@ import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.mobile.ecomapp.R
 import com.mobile.ecomapp.models.HomeData
-import com.mobile.ecomapp.repository.MainRepository
 import com.mobile.ecomapp.viewModels.MainViewModel
 import com.mobile.ecomapp.viewModels.ViewModelFactory
 import com.mobile.ecomapp.views.adapters.BannersAdapter
